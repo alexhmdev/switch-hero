@@ -12,21 +12,33 @@ public class Enemy : MonoBehaviour
     [SerializeField] private Transform attackPosition;
     [SerializeField] private GameObject attackParts;
 
+    [SerializeField] private float damageToPlayer;
+
     private Rigidbody2D rb;
     private Animator animator;
     private AudioManager audioManager;
+    private HealthSystem healthSystem;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         audioManager = FindObjectOfType<AudioManager>();
+        healthSystem = GetComponent<HealthSystem>();
         StartCoroutine(Patrol());
     }
 
-   public void TakeDamage()
+     void Update() {
+        if(healthSystem.GetHealth() <= 0)
+        {
+            StartCoroutine(Die());
+        }
+    }
+
+   public void TakeDamage(float damage)
     {
         animator.SetTrigger("hit");
+        healthSystem.TakeDamage(damage);
         StopAllCoroutines();
         StartCoroutine(RestartPatrol());
     }
@@ -43,7 +55,7 @@ public class Enemy : MonoBehaviour
         {
             if (other.CompareTag("Player"))
             {
-                other.GetComponentInParent<Player>().TakeDamage();
+                other.GetComponentInParent<Player>().TakeDamage(damageToPlayer);
             }
         }
     }
@@ -98,5 +110,14 @@ public class Enemy : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         StartCoroutine(Patrol());
+    }
+
+    IEnumerator Die()
+    {
+        StopAllCoroutines();
+        animator.SetTrigger("die");
+        GetComponent<Collider2D>().enabled = false;
+        yield return new WaitForSeconds(2f);
+        Destroy(gameObject);
     }
 }

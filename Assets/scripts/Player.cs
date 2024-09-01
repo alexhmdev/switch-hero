@@ -22,6 +22,7 @@ public class Player : MonoBehaviour
     [Header("Attack")]
     [SerializeField] private Transform attackPosition;
     [SerializeField] private GameObject attackParts;
+    [SerializeField] private float damageToEnemy;
 
     [Header("References")]
     [SerializeField] private SpriteLibraryAsset characterRedSprites;
@@ -49,7 +50,7 @@ public class Player : MonoBehaviour
     private bool canDoubleJump = false;
     private bool canMove = true;
     private Vector3 lastGroundPosition;
-
+    private HealthSystem healthSystem;
 
     // Start is called before the first frame update
     void Start()
@@ -59,6 +60,7 @@ public class Player : MonoBehaviour
         audioManager = FindObjectOfType<AudioManager>();
         movementSpeed = walkSpeed;
         playerLight = GetComponentInChildren<Light2D>();
+        healthSystem = GetComponent<HealthSystem>();
     }
 
     // Update is called once per frame
@@ -67,6 +69,12 @@ public class Player : MonoBehaviour
         Movement();
         GroundCheck();
         ChangeHood();
+
+        if(healthSystem.GetHealth() <= 0)
+        {
+            Respawn();
+            healthSystem.RestoreHealth(100);
+        }
     }
 
     void FixedUpdate()
@@ -81,7 +89,7 @@ public class Player : MonoBehaviour
             rb.constraints = RigidbodyConstraints2D.FreezeAll;
 
             changingHood = true;
-           animator.SetTrigger("changeHood");
+            animator.SetTrigger("changeHood");
         }
     }
 
@@ -132,9 +140,10 @@ public class Player : MonoBehaviour
     }
 
     
-    public void TakeDamage()
+    public void TakeDamage(float damage)
     {
        Debug.Log("Player took damage");
+        healthSystem.TakeDamage(damage);
         StartCoroutine(PlayerKnockback());
        
     }
@@ -179,7 +188,7 @@ public class Player : MonoBehaviour
             if(enemy.CompareTag("Enemy") )
             {
             Instantiate(attackParts, attackPosition.position, Quaternion.identity);
-            enemy.GetComponent<Enemy>().TakeDamage();
+            enemy.GetComponent<Enemy>().TakeDamage(damageToEnemy);
             }
         }
     }
