@@ -1,0 +1,315 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: idle
+    m_Hash: 472167701
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: AnimationSheet_Character_0
+      m_Hash: 539658017
+      m_Sprite: {fileID: -2079159168, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2079159168, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_1
+      m_Hash: 388872119
+      m_Sprite: {fileID: 624826629, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 624826629, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_0_0
+      m_Hash: 627048578
+      m_Sprite: {fileID: -2079159168, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2079159168, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_1_0
+      m_Hash: 614623925
+      m_Sprite: {fileID: 624826629, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 624826629, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_0_1
+      m_Hash: 308752404
+      m_Sprite: {fileID: -2079159168, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2079159168, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_1_1
+      m_Hash: 329603619
+      m_Sprite: {fileID: 624826629, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 624826629, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_0_2
+      m_Hash: 191783342
+      m_Sprite: {fileID: -2079159168, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2079159168, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_1_2
+      m_Hash: 179047321
+      m_Sprite: {fileID: 624826629, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 624826629, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_0_3
+      m_Hash: 1013535032
+      m_Sprite: {fileID: -2079159168, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2079159168, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_1_3
+      m_Hash: 1034631951
+      m_Sprite: {fileID: 624826629, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 624826629, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_2
+      m_Hash: 237299213
+      m_Sprite: {fileID: -1801455326, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1801455326, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_3
+      m_Hash: 958650011
+      m_Sprite: {fileID: -140802977, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -140802977, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_3_0
+      m_Hash: 656850651
+      m_Sprite: {fileID: -140802977, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -140802977, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_2_0
+      m_Hash: 652530924
+      m_Sprite: {fileID: -1801455326, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1801455326, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_1_4
+      m_Hash: 600813228
+      m_Sprite: {fileID: 624826629, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 624826629, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 15
+  - m_Name: walk
+    m_Hash: 227637845
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: AnimationSheet_Character_4
+      m_Hash: 658981688
+      m_Sprite: {fileID: -308709232, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -308709232, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_5
+      m_Hash: 272659374
+      m_Sprite: {fileID: -377548026, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -377548026, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_6
+      m_Hash: 155787796
+      m_Sprite: {fileID: -1499584503, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1499584503, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_7
+      m_Hash: 1045303938
+      m_Sprite: {fileID: -723186663, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -723186663, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: run
+    m_Hash: 276210880
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: AnimationSheet_Character_8
+      m_Hash: 787549971
+      m_Sprite: {fileID: 373998473, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 373998473, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_9
+      m_Hash: 435568517
+      m_Sprite: {fileID: -759483789, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -759483789, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_10
+      m_Hash: 566875321
+      m_Sprite: {fileID: -1896041871, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1896041871, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_11
+      m_Hash: 382657583
+      m_Sprite: {fileID: 637325357, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 637325357, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_12
+      m_Hash: 264746389
+      m_Sprite: {fileID: 20359617, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 20359617, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_13
+      m_Hash: 952141059
+      m_Sprite: {fileID: -771873783, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -771873783, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_14
+      m_Hash: 648286368
+      m_Sprite: {fileID: -941630587, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -941630587, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_15
+      m_Hash: 295903286
+      m_Sprite: {fileID: 1388384100, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1388384100, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_13_0
+      m_Hash: 752648036
+      m_Sprite: {fileID: -771873783, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -771873783, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 9
+  - m_Name: jump
+    m_Hash: 666043926
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: AnimationSheet_Character_23
+      m_Hash: 334354112
+      m_Sprite: {fileID: -1803615824, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1803615824, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_24
+      m_Hash: 227099491
+      m_Sprite: {fileID: 1300018915, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1300018915, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_25
+      m_Hash: 982414325
+      m_Sprite: {fileID: -878007549, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -878007549, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_26
+      m_Hash: 596058703
+      m_Sprite: {fileID: -1385488769, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1385488769, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: land
+    m_Hash: 671143384
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: AnimationSheet_Character_27
+      m_Hash: 343937753
+      m_Sprite: {fileID: 1241698214, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1241698214, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_28
+      m_Hash: 71241544
+      m_Sprite: {fileID: 1943332286, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1943332286, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_29
+      m_Hash: 859324382
+      m_Sprite: {fileID: 800330971, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 800330971, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_30
+      m_Hash: 335525435
+      m_Sprite: {fileID: -1902976355, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1902976355, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: attack
+    m_Hash: 130035003
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: AnimationSheet_Character_42
+      m_Hash: 850411984
+      m_Sprite: {fileID: -1359016770, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1359016770, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_43
+      m_Hash: 95908166
+      m_Sprite: {fileID: -1181525789, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1181525789, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_44
+      m_Hash: 466871525
+      m_Sprite: {fileID: -1289241232, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1289241232, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_45
+      m_Hash: 752145523
+      m_Sprite: {fileID: -1088312369, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1088312369, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_46
+      m_Hash: 903710153
+      m_Sprite: {fileID: -1655148578, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1655148578, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_47
+      m_Hash: 47887711
+      m_Sprite: {fileID: -789040092, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -789040092, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_48
+      m_Hash: 308652238
+      m_Sprite: {fileID: -1488719018, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1488719018, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_49
+      m_Hash: 627218520
+      m_Sprite: {fileID: 503045063, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 503045063, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 8
+  - m_Name: hood change
+    m_Hash: 137305927
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: AnimationSheet_Character_16
+      m_Hash: 145387916
+      m_Sprite: {fileID: 779529044, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 779529044, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_17
+      m_Hash: 1068319002
+      m_Sprite: {fileID: -209880835, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -209880835, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_18
+      m_Hash: 789732491
+      m_Sprite: {fileID: -464370807, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -464370807, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_19
+      m_Hash: 404057117
+      m_Sprite: {fileID: -1452084748, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1452084748, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_20
+      m_Hash: 182749050
+      m_Sprite: {fileID: -850025420, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -850025420, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_21
+      m_Hash: 1038333932
+      m_Sprite: {fileID: 892246179, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 892246179, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    - m_Name: AnimationSheet_Character_22
+      m_Hash: 619374166
+      m_Sprite: {fileID: -103125690, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -103125690, guid: f3c37a9bea83c32449e9a4629e1d1c94, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 7
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638605549254252428
+  m_Version: 1
